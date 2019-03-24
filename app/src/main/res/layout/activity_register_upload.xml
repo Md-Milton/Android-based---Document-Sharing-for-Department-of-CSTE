@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_register_upload"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="10"
+    android:background="#16A0E8"
+    tools:context="com.cste.milton.student_faculty_document_sharing_system.RegisterUpload">
+    <Button
+        android:layout_width="match_parent"
+        android:text="Select a File"
+        android:textAllCaps="false"
+        android:background="@drawable/white_btn_background"
+        android:id="@+id/btn_select"
+        android:textSize="20dp"
+        android:textColor="#FFF"
+        android:layout_weight="1"
+        android:layout_height="0dp" />
+
+    <TextView
+        android:text="Selected file : "
+        android:textColor="#FFF"
+        android:id="@+id/notification"
+        android:layout_margin="10dp"
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"/>
+    <Button
+        android:layout_width="match_parent"
+        android:text="Upload File"
+        android:textAllCaps="false"
+        android:background="@drawable/white_btn_background"
+        android:id="@+id/btn_upload"
+        android:textSize="20dp"
+        android:textColor="#FFF"
+        android:layout_weight="1"
+        android:layout_height="0dp" />
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"/>
+
+
+    <TextView
+        android:id="@+id/uploading"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:textColor="#FFF"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="0dp" />
+    <ProgressBar
+        android:id="@+id/progress"
+        android:layout_width="match_parent"
+        android:layout_margin="10dp"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_weight="1"
+        android:layout_height="0dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+
+
+</LinearLayout>

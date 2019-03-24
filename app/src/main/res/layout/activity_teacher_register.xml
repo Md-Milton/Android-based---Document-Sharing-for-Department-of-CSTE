@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#234D6E"
+    android:layout_height="match_parent"
+    tools:context=".TeacherRegister">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:layout_width="match_parent"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content">
+
+    <TextView
+        android:text="Teacher Registration"
+        android:gravity="center"
+        android:textColor="#FFFF"
+        android:textSize="25dp"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:layout_margin="15dp"
+        android:hint="Enter your name"
+        android:id="@+id/editTextname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:layout_margin="15dp"
+        android:hint="Enter your email"
+        android:id="@+id/editTextEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:layout_margin="15dp"
+        android:hint="Enter your password"
+        android:id="@+id/editTextpassword"
+        android:inputType="textPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:layout_margin="15dp"
+        android:text="Register user"
+        android:textColor="#FFFF"
+        android:id="@+id/buttonRegister"
+        android:background="@drawable/white_btn_background"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:textAlignment="center"
+        android:text="Already Register? Sign in here"
+        android:id="@+id/textViewSignin"
+        android:layout_marginTop="10dp"
+        android:textColor="#C12179"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,188 @@
+<resources>
+    <string name="app_name">Student_Faculty_Document_Sharing_System</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="HumayunSir">
+        <b>Dr. Humayun Kabir </b>\n
+        Professor and Dean, Engineering Faculty\n
+        BSc. and MSc. (Applied Physics, DU), PhD. (Kitami Institute, Japan)\n
+        Cell: +8801814405238\n
+        E-mail: hkabir269@gmail.com\n
+    </string>
+
+    <string name="javed">
+        <b>Md. Javed Hossain</b>\n
+        Associate Professor\n
+        BSc. and MSc. (Applied Physics and Electronics, DU), Diploma (ISIR, OU, Japan),PhD Student(EEE,DU)\n
+        Phone : 01718175139\n
+        E-mail : javed.nstu@gmail.com\n
+    </string>
+
+    <string name="asad">
+        <b>Dr. Md. Ashadun Nabi</b>\n
+        Associate Professor\n
+        Phone : 01717207155\n
+        E-mail : ashadunnobi_305@yahoo.com\n
+    </string>
+
+    <string name="nadidmam">
+        <b>Dr.Nahid Akter</b>\n
+        Associate Professor\n
+        Phone : 01776381442\n
+        E-mail : nahid_nstu@yahoo.com\n
+    </string>
+
+    <string name="bellal">
+        <b>Md. Bellal Hossain </b>\n
+        Assistant Professor\n
+        B.Sc. Engineering (EEE, CUET)\n
+        M.Sc. Engineering (ECE, Khulna University)\n
+        Cell:+880-171-6699401\n
+        Phone (office).+880-321-71486\n
+        E-mail: belal.nstu@gmail.com\n\tbelalcste@nstu.edu.bd\n
+    </string>
+
+    <string name="abhijit">
+        <b>Abhijit Chakraborty (On Leave)</b>\n
+        Assistant Professor\n
+        B.Sc (CSE, CU), M.Sc. (CSE, BUET).\n
+        Office Phone: +88-0321-71486\n
+        Mobile : +880-01912183607\n
+        E-mail: abhijit.cse@gmail.com\n
+    </string>
+
+    <string name="ibrahim">
+        <b>Ibrahim Azad (On Leave)</b>\n
+        Assistant Professor\n
+        Phone : 01715764437\n
+        E-mail : ibrahim.azad@hotmail.com\n
+    </string>
+
+    <string name="kamal">
+        <b>Md. Kamal Uddin (On Leave)</b>\n
+        Assistant Professor\n
+        BSc. and M.Sc. (CSE, RU).\n
+        Mobile: +8801724-268223\n
+        E-mail:cse_kamal_ud@yahoo.com\n
+    </string>
+
+    <string name="azad">
+        <b>Abul Kalam Azad</b>\n
+        Assistant Professor\n
+        B.Sc. (CSTE, NSTU) and M.SC. (IICT, BUET).\n
+        Mobile : +8801722034899\n
+        E-mail: ak_azad@nstu.edu.bd\n
+    </string>
+
+    <string name="bappee">
+        <b>Fateha Khanam Bappee (On Leave)</b>\n
+        Assistant Professor\n
+        Phone : 01726772578\n
+        E-mail : bappeenstu@gmail.com\n
+
+    </string>
+
+    <string name="arman">
+       <b>Md. Amran Hossain Bhuiyan (On Leave)</b> \n
+        Assistant Professor\n
+        Phone : 01717194634\n
+        E-mail : amran_apece@yahoo.com\n
+    </string>
+
+    <string name="nazia">
+        <b>Nazia Majadi (On Leave)</b>\n
+        Assistant Professor\n
+        Phone : 01718422881\n
+        E-mail : nazia_majadi@yahoo.com\n
+    </string>
+
+    <string name="towhid">
+        <b>Iftekhar Mahmud Towhid</b>\n
+        Assistant Professor\n
+        BSc. (CSTE, NSTU).\n
+        Mobile: +8801812597258\n
+        Email: im_towhid@yahoo.com\n
+               \ttlabs.im@gmail.com\n
+    </string>
+
+    <string name="yasin">
+       <b>Md. Yasin Kabir (On Leave)</b> \n
+        Lecturer\n
+        BSc. (CSTE, NSTU)\n
+        Phone : 01717188414\n
+        E-mail : mdyasinkabir@gmail.com\n
+    </string>
+
+    <string name="mahmudul">
+       <b>Mahmudul Hasan</b> \n
+        Lecturer\n
+        Phone : 01710401322\n
+        E-mail : rana.nstu@gmail.com\n
+    </string>
+
+    <string name="hasnat">
+        <b>Hasnat Riaz</b>\n
+        Assistant Professor\n
+        Phone : 01814899910\n
+        E-mail : hasnat.riaz90@gmail.com\n
+    </string>
+
+    <string name="nahida">
+        <b>Nahida Akter (On Leave)</b>\n
+        Lecturer\n
+        Phone : 01811804116\n
+        E-mail : nahidacste36@gmail.com\n
+    </string>
+
+    <string name="koushik">
+        <b>Koushik Chandra</b>\n
+        Assistant Professor\n
+        Phone : 01727657094\n
+        E-mail : koushiksoul@gmail.com\n
+    </string>
+
+    <string name="syful">
+        <b>Syful Islam (On Leave)</b>\n
+        Lecturer\n
+    </string>
+
+    <string name="kuri">
+        <b>Ratnadip Kuri</b>\n
+        Lecturer\n
+    </string>
+
+    <string name="salauddin">
+        <b>A Q M Salauddin Pathan</b>\n
+        Lecturer\n
+        Phone : 01857839590\n
+        E-mail : akashnstu@gmail.com\n
+    </string>
+
+    <string name="cr9th">
+        Mukarrom Yahiya\n
+        phone: 01672216547 \n
+    </string>
+
+    <string name="cr10th">
+        Md.Delwar Hossain\n
+        phone: 01772046467\n
+    </string>
+
+    <string name="cr11th">
+        Md. Emtiaj Ahmed\n
+        phone: 01851345934\n
+    </string>
+
+    <string name="cr12th">
+        Mohammad Ashikur Rahman\n
+        phone: 01712327247\n
+    </string>
+
+    <string name="cr13th">
+        Md. Mahabubur Rahman\n
+        phone: 01988283844\n
+    </string>
+
+</resources>

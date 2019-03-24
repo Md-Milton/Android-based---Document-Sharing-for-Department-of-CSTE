@@ -1,0 +1,473 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#8bbbd4d4"
+    android:layout_marginLeft="2dp"
+    tools:context=".TeacherInfo">
+
+    <LinearLayout
+        android:id="@+id/firstlayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="130dp"
+            android:weightSum="4"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp">
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:src="@drawable/humayun"
+                android:scaleType="fitXY"/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:layout_marginLeft="5dp"
+                android:textIsSelectable="true"
+                android:text="@string/HumayunSir"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="130dp"
+            android:weightSum="4"
+            android:layout_marginBottom="5dp">
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:src="@drawable/javed"
+                android:scaleType="fitXY"
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:layout_marginLeft="5dp"
+                android:textIsSelectable="true"
+                android:text="@string/javed"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="130dp"
+            android:layout_marginBottom="5dp"
+            android:weightSum="4">
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                android:src="@drawable/asad" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:layout_marginLeft="5dp"
+                android:textIsSelectable="true"
+                android:text="@string/asad" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="130dp"
+            android:weightSum="4"
+            android:layout_marginBottom="5dp">
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:src="@drawable/nahid"
+                android:scaleType="fitXY"
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:layout_marginLeft="5dp"
+                android:textIsSelectable="true"
+                android:text="@string/nadidmam"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="150dp"
+            android:weightSum="4"
+            android:layout_marginBottom="5dp">
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:src="@drawable/bellal"
+                android:scaleType="fitXY"/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:layout_marginLeft="5dp"
+                android:textIsSelectable="true"
+                android:text="@string/bellal"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="130dp"
+            android:weightSum="4"
+            android:layout_marginBottom="5dp">
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:src="@drawable/abhijeet"
+                android:scaleType="fitXY"/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:layout_marginLeft="5dp"
+                android:textIsSelectable="true"
+                android:text="@string/abhijit"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="130dp"
+            android:weightSum="4"
+            android:layout_marginBottom="5dp">
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:src="@drawable/ibrahim"
+                android:scaleType="fitXY"/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:layout_marginLeft="5dp"
+                android:textIsSelectable="true"
+                android:text="@string/ibrahim"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="130dp"
+            android:weightSum="4"
+            android:layout_marginBottom="5dp">
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:src="@drawable/kamal"
+                android:scaleType="fitXY"
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:layout_marginLeft="5dp"
+                android:textIsSelectable="true"
+                android:text="@string/kamal"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="130dp"
+            android:weightSum="4"
+            android:layout_marginBottom="5dp">
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:src="@drawable/azad"
+                android:scaleType="fitXY"
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:layout_marginLeft="5dp"
+                android:textIsSelectable="true"
+                android:text="@string/azad"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="130dp"
+            android:weightSum="4"
+            android:layout_marginBottom="5dp">
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:src="@drawable/bappee"
+                android:scaleType="fitXY"
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:layout_marginLeft="5dp"
+                android:textIsSelectable="true"
+                android:text="@string/bappee"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="130dp"
+            android:weightSum="4"
+            android:layout_marginBottom="5dp">
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:src="@drawable/arman"
+                android:scaleType="fitXY"/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:layout_marginLeft="5dp"
+                android:textIsSelectable="true"
+                android:text="@string/arman"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="130dp"
+            android:weightSum="4"
+            android:layout_marginBottom="5dp">
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:src="@drawable/nazia"
+                android:scaleType="fitXY"/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:layout_marginLeft="5dp"
+                android:textIsSelectable="true"
+                android:text="@string/nazia"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="130dp"
+            android:weightSum="4"
+            android:layout_marginBottom="5dp">
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:src="@drawable/towhid"
+                android:scaleType="fitXY"/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:layout_marginLeft="5dp"
+                android:textIsSelectable="true"
+                android:text="@string/towhid"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="130dp"
+            android:weightSum="4"
+            android:layout_marginBottom="5dp">
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:src="@drawable/yasin"
+                android:scaleType="fitXY"/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:layout_marginLeft="5dp"
+                android:textIsSelectable="true"
+                android:text="@string/yasin"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="130dp"
+            android:weightSum="4"
+            android:layout_marginBottom="5dp">
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:src="@drawable/mahmudul"
+                android:scaleType="fitXY"/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:layout_marginLeft="5dp"
+                android:textIsSelectable="true"
+                android:text="@string/mahmudul"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="130dp"
+            android:weightSum="4"
+            android:layout_marginBottom="5dp">
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:src="@drawable/hasnat"
+                android:scaleType="fitXY"/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:layout_marginLeft="5dp"
+                android:textIsSelectable="true"
+                android:text="@string/hasnat"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="130dp"
+            android:weightSum="4"
+            android:layout_marginBottom="5dp">
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:src="@drawable/nahida"
+                android:scaleType="fitXY"/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:layout_marginLeft="5dp"
+                android:textIsSelectable="true"
+                android:text="@string/nahida"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="130dp"
+            android:weightSum="4"
+            android:layout_marginBottom="5dp">
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:src="@drawable/koushik"
+                android:scaleType="fitXY"/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:layout_marginLeft="5dp"
+                android:textIsSelectable="true"
+                android:text="@string/koushik"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="130dp"
+            android:weightSum="4"
+            android:layout_marginBottom="5dp">
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:src="@drawable/syful"
+                android:scaleType="fitXY"/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:layout_marginLeft="5dp"
+                android:textIsSelectable="true"
+                android:text="@string/syful"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="130dp"
+            android:weightSum="4"
+            android:layout_marginBottom="5dp">
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:src="@drawable/ratnadip"
+                android:scaleType="fitXY"/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:layout_marginLeft="5dp"
+                android:textIsSelectable="true"
+                android:text="@string/kuri"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="130dp"
+            android:weightSum="4"
+            android:layout_marginBottom="5dp">
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:src="@drawable/salahuddin"
+                android:scaleType="fitXY"/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:layout_marginLeft="5dp"
+                android:textIsSelectable="true"
+                android:text="@string/salauddin"/>
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+</ScrollView>

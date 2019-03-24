@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_department_module"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#16A0E8"
+    android:gravity="center"
+    tools:context="com.cste.milton.student_faculty_document_sharing_system.DepartmentModule">
+
+    <Button
+        android:id="@+id/buttonteacher"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login as Teacher"
+        android:textColor="#C12170"
+        android:background="@drawable/white_btn_background"
+        android:layout_margin="10dp"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/buttonregister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login as Office Stuff"
+        android:background="@drawable/white_btn_background"
+        android:layout_margin="10dp"
+        android:textColor="#C12170"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+</LinearLayout>

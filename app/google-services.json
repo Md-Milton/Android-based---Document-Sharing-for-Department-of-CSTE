@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "203278060303",
+    "firebase_url": "https://departmentdocumentsharing.firebaseio.com",
+    "project_id": "departmentdocumentsharing",
+    "storage_bucket": "departmentdocumentsharing.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:203278060303:android:d52bb026a1d6bbe6",
+        "android_client_info": {
+          "package_name": "com.cste.milton.student_faculty_document_sharing_system"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "203278060303-fv5bqagdf97715ukldq7vl3l65gq6r6o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBlk81luBKTDjeB3r8edbUOn8yLbXFnBnU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

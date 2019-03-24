@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.cste.milton.student_faculty_document_sharing_system">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/cste"
+        android:label="CSTE FILE SHARE"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".HomeActivity" />
+        <activity android:name=".StudentObjective" />
+        <activity android:name=".EducationalNotice" />
+        <activity android:name=".DepartmentModule" />
+        <activity android:name=".PhotoGallery" />
+        <activity android:name=".RegisterUpload" />
+        <activity android:name=".TeacherUpload" />
+        <activity android:name=".MyRecyclerViewActivity" />
+        <activity android:name=".ContactsObjective" />
+        <activity android:name=".cr_info" />
+        <activity android:name=".TeacherInfo" />
+        <activity android:name=".RecyclerViewTerm2" />
+        <activity android:name=".RecyclerViewTerm3" />
+        <activity android:name=".RecyclerViewTerm4" />
+        <activity android:name=".RecyclerViewTerm5" />
+        <activity android:name=".RecyclerViewTerm6" />
+        <activity android:name=".RecyclerViewTerm7" />
+        <activity android:name=".RecyclerViewTerm8" />
+        <activity android:name=".RecyclerNotice" />
+        <activity android:name=".TeacherLogin" />
+        <activity android:name=".TeacherRegister" />
+        <activity android:name=".RegisterLogin" />
+        <activity android:name=".RegisterActivity"></activity>
+
+        <service android:name=".MyFirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+            </intent-filter>
+        </service>
+
+        <service android:name=".FirebaseIDService">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT"/>
+            </intent-filter>
+        </service>
+
+
+    </application>
+
+</manifest>
